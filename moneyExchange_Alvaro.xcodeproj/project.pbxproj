@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B61C64A21933D590007C555 /* Hacking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B61C64921933D590007C555 /* Hacking.swift */; };
+		5BB4E8362190AA9700BD844D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB4E8352190AA9700BD844D /* ViewController.swift */; };
+		5BEA11472189F4460050B115 /* Moneda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEA11462189F4460050B115 /* Moneda.swift */; };
 		5BFDB00D2188CDA00005B502 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFDB00C2188CDA00005B502 /* AppDelegate.swift */; };
-		5BFDB00F2188CDA00005B502 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFDB00E2188CDA00005B502 /* ViewController.swift */; };
 		5BFDB0122188CDA00005B502 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BFDB0102188CDA00005B502 /* Main.storyboard */; };
 		5BFDB0142188CDA10005B502 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BFDB0132188CDA10005B502 /* Assets.xcassets */; };
 		5BFDB0172188CDA10005B502 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BFDB0152188CDA10005B502 /* LaunchScreen.storyboard */; };
@@ -34,9 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B61C64921933D590007C555 /* Hacking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hacking.swift; sourceTree = "<group>"; };
+		5BB4E8352190AA9700BD844D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5BEA11462189F4460050B115 /* Moneda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moneda.swift; sourceTree = "<group>"; };
 		5BFDB0092188CD9F0005B502 /* moneyExchange_Alvaro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = moneyExchange_Alvaro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BFDB00C2188CDA00005B502 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5BFDB00E2188CDA00005B502 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5BFDB0112188CDA00005B502 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5BFDB0132188CDA10005B502 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BFDB0162188CDA10005B502 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,11 +102,13 @@
 			isa = PBXGroup;
 			children = (
 				5BFDB00C2188CDA00005B502 /* AppDelegate.swift */,
-				5BFDB00E2188CDA00005B502 /* ViewController.swift */,
 				5BFDB0102188CDA00005B502 /* Main.storyboard */,
+				5B61C64921933D590007C555 /* Hacking.swift */,
+				5BB4E8352190AA9700BD844D /* ViewController.swift */,
 				5BFDB0132188CDA10005B502 /* Assets.xcassets */,
 				5BFDB0152188CDA10005B502 /* LaunchScreen.storyboard */,
 				5BFDB0182188CDA10005B502 /* Info.plist */,
+				5BEA11462189F4460050B115 /* Moneda.swift */,
 			);
 			path = moneyExchange_Alvaro;
 			sourceTree = "<group>";
@@ -256,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BFDB00F2188CDA00005B502 /* ViewController.swift in Sources */,
+				5BB4E8362190AA9700BD844D /* ViewController.swift in Sources */,
+				5B61C64A21933D590007C555 /* Hacking.swift in Sources */,
+				5BEA11472189F4460050B115 /* Moneda.swift in Sources */,
 				5BFDB00D2188CDA00005B502 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
